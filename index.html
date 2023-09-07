@@ -8,7 +8,14 @@
     <body>
         <div id="container">
             <h1>Generate a <br><span>random password</span></h1>
-            <h2>Never use an insecure password again.</h2>
+            <h2>Never use an insecure password again.</h2>            
+            <input type="text" id="password-length"  placeholder="Length" >                
+            <select id="password-type" name="password-type">
+                <option value="all">All</option>
+                <option value="letters-only">Letters</option>
+                <option value="numbers-only">Numbers</option>
+                <option value="letters-and-numbers">Letters and Numbers</option>
+            </select>            
             <button id="password-btn" onclick="generatePassword()">Generate Password</button>
             <hr>
             <div class="password-area">
