@@ -11,6 +11,8 @@ function getRandomNo(){
     return randomNo
 }
 
+
+
 function generatePassword(){
     passwordOne.textContent = ""
     passwordTwo.textContent = ""
